@@ -9,3 +9,8 @@ execute
 ```
 ./dicominfo3 [DICOM file]
 ```
+
+show Japanese information.
+```
+./dicominfo3 [DICOM file] | nkf -sw
+```
